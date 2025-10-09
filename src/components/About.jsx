@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import portfolioImg from "../assets/IQUL8890.jpg";
+import portfolioImg from "../assets/about.jpg";
 
 export default function About() {
   return (
