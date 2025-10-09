@@ -1,36 +1,42 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 
+import akademikImg from "../assets/Project/akademik.png";
+import monitoringImg from "../assets/Project/monitoring.png";
+import webprofileImg from "../assets/Project/web-profile.png";
+import inventoryImg from "../assets/Project/inventory.jpeg";
+import timesheetImg from "../assets/Project/timesheet.jpeg";
+
 const projects = [
   {
     title: "Academic Information Systems",
     desc: "A comprehensive Academic Information System designed to efficiently manage student data, academic schedules, grades, teacher information, and more through a user-friendly interface.",
     stack: ["PHP", "CodeIgniter", "MariaDB", "Bootstrap"],
-    image: "/src/assets/akademik.png",
+    image: akademikImg,
   },
   {
     title: "Activity Monitoring System",
     desc: "A web-based Activity Monitoring System designed to track, manage, and evaluate daily activities and project progress in real-time, improving transparency and productivity.",
     stack: ["PHP", "CodeIgniter", "MariaDB", "Bootstrap"],
-    image: "/src/assets/monitoring.png",
+    image: monitoringImg,
   },
   {
     title: "School Profile Web",
     desc: "A modern and responsive School Profile Website designed to showcase school identity, achievements, and programs with a clean and engaging user experience.",
     stack: ["WordPress", "Elementor"],
-    image: "/src/assets/web-profile.png",
+    image: webprofileImg,
   },
   {
     title: "Inventory Management",
     desc: "A web-based application designed to help companies efficiently manage and consolidate inventory. This system makes it easy for users to record, consolidate, and analyze inventory data stored across multiple locations in real time.",
     stack: ["React", "Laravel", "API", "Docker"],
-    image: "/src/assets/inventory.jpeg",
+    image: inventoryImg,
   },
   {
     title: "Timesheet App",
     desc: "A web-based application for digitally recording and managing operator time. It features CRUD, search, date filters, Excel export, and role-based access control, all in a modern and responsive design.",
     stack: ["Laravel", "React", "Docker", "API"],
-    image: "/src/assets/timesheet.jpeg",
+    image: timesheetImg,
   },
 ];
 
