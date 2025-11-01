@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Github, Linkedin, ChevronDown } from "lucide-react";
+import { Github, Linkedin, Mail, ChevronDown } from "lucide-react";
 
 export default function Hero() {
   const texts = ["DEVELOPING", "CREATIVITY", "DESIGNING"];
@@ -60,8 +60,11 @@ export default function Hero() {
           <a href="https://www.linkedin.com/in/m-syaifullah-769920302/?isSelfProfile=true" target="_blank" className="hover:text-orange-400 transition">
             <Linkedin size={20} />
           </a>
-          <a href="https://github.com" target="_blank" className="hover:text-orange-400 transition">
+          <a href="https://github.com/msyaifullah059-ai" target="_blank" className="hover:text-orange-400 transition">
             <Github size={20} />
+          </a>
+          <a href="mailto:msyaifullah059@gmail.com" target="_blank" className="hover:text-orange-400 transition">
+            <Mail size={20} />
           </a>
         </div>
 
